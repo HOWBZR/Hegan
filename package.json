@@ -1,0 +1,29 @@
+{
+  "name": "hegan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HOWBZR/Hegan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HOWBZR/Hegan/issues"
+  },
+  "homepage": "https://github.com/HOWBZR/Hegan#readme"
+}
