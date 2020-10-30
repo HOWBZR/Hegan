@@ -1,6 +1,6 @@
 import React, { useState, Fragment, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.svg"
+import exp from "../../assets/exp.png"
 import menu from "../../assets/menu.png"
 import close from "../../assets/close.png"
 
@@ -25,11 +25,11 @@ const Navbar = () => {
   return (
 
     
-    <div className="sticky top-0 w-full shadow-lg bg-gray-800 ">
+    <div className="sticky top-0 w-full shadow-lg bg-gray-700 ">
       <nav>
         <div className="flex items-center justify-between px-6 py-2">
           <div> <a href="/">
-            <img className="h-16" alt="Organic Designs" src={logo} />
+            <img className="h-16" alt="EXP Realty" src={exp} />
            </a>
           </div>
           <div >
@@ -60,7 +60,7 @@ const Navbar = () => {
               </div>
             ):(<Fragment/>)}
             <a
-              href=""
+              href="about"
               className="block mt-1 px-2 py-1 text-black font-semibold rounded hover:bg-gray-400"
               >
               About

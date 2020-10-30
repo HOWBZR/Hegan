@@ -11,11 +11,13 @@ function App() {
   return (
     <Fragment>
         <Router>
-      <Navbar />
+        <Navbar />
+      
       <Switch>
       <Route exact path="/" component={Landing}/>
-        <Route exact path="/training" component={Training}/>
+            <Route exact path="/training" component={Training} />
         </Switch>
+            
           </Router>
    </Fragment>
   );
